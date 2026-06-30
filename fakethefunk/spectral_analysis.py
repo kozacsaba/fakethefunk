@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import numpy as np
 
-from audio_analyzer.config import AnalysisConfig
-from audio_analyzer.models import AnalysisResult, AudioData, SpectralFrames
+from fakethefunk.config import AnalysisConfig
+from fakethefunk.models import AnalysisResult, AudioData, SpectralFrames
 
 _EPS = 1e-300
 

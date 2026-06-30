@@ -5,7 +5,7 @@ from pathlib import Path
 import librosa
 import numpy as np
 
-from audio_analyzer.models import AudioData
+from fakethefunk.models import AudioData
 
 
 def load_audio(path: Path) -> AudioData:

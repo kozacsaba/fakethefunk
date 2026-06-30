@@ -3,9 +3,9 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from audio_analyzer.config import AnalysisConfig
-from audio_analyzer.directory_processor import process_directory
-from audio_analyzer.reporting import write_reports
+from fakethefunk.config import AnalysisConfig
+from fakethefunk.directory_processor import process_directory
+from fakethefunk.reporting import write_reports
 
 
 def main() -> int:

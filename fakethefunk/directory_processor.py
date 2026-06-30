@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from audio_analyzer.config import AnalysisConfig
-from audio_analyzer.file_processor import process_file
-from audio_analyzer.models import DirectoryResult
+from fakethefunk.config import AnalysisConfig
+from fakethefunk.file_processor import process_file
+from fakethefunk.models import DirectoryResult
 
 
 def process_directory(

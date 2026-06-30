@@ -2,10 +2,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from audio_analyzer.audio_io import load_audio
-from audio_analyzer.config import AnalysisConfig
-from audio_analyzer.models import FileResult, FileStatus
-from audio_analyzer.spectral_analysis import analyze_audio
+from fakethefunk.audio_io import load_audio
+from fakethefunk.config import AnalysisConfig
+from fakethefunk.models import FileResult, FileStatus
+from fakethefunk.spectral_analysis import analyze_audio
 
 
 def process_file(

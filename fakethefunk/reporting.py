@@ -3,7 +3,7 @@ from __future__ import annotations
 import csv
 from pathlib import Path
 
-from audio_analyzer.models import DirectoryResult, FileResult, FileStatus
+from fakethefunk.models import DirectoryResult, FileResult, FileStatus
 
 
 def write_reports(

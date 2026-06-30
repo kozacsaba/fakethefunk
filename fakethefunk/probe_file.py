@@ -6,9 +6,9 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 import numpy as np
 
-from audio_analyzer.audio_io import load_audio
-from audio_analyzer.config import AnalysisConfig
-from audio_analyzer.spectral_analysis import (
+from fakethefunk.audio_io import load_audio
+from fakethefunk.config import AnalysisConfig
+from fakethefunk.spectral_analysis import (
     analyze_audio,
     compute_block_power_spectra,
     linear_power_to_db,
